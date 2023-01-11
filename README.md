@@ -2,7 +2,7 @@
 
 Developed and trained a machine learning algorithm to predict whether or not messages were "spam" or "ham." 
 
-The libraries I used were NLTK to help me filter out common stop words in the messages. Used a Count Vectorizer to convert all the messages into a sparse matrix. Then used TF-IDF to give each word a weighted score based on how many times a word appears in a document and finally used the Naive-Bayes Classifier algorithm. I then implemented a data pipeline to include transformations. 
+Used NLTK and Count Vectorization to convert all the messages into a sparse matrix. Then used TF-IDF to give each word a weighted score based on how many times a word appears in a document and finally used the Naive-Bayes Classifier algorithm. I then implemented a data pipeline to include transformations. 
 
 
 **Results**:
